@@ -1,0 +1,15 @@
+.hotline-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: 10px;
+    font-weight: bold;
+          
+}
+@media screen and (max-width: 768px) {
+    .hotline-container {
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+    }
+}
