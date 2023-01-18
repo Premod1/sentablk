@@ -1,22 +1,21 @@
 .whats-app-container {
-    display: flex;
+    display: flex; 
     justify-content: end;
     padding: 30px;
     cursor: pointer;
     
     
     
+    
 }
-.app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-    width: 90px;
+#app {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    background: #eaeef1;
+    width: 110px;
     height: 50px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    padding: 0px 0px 5px 10px;
+    z-index: 9999999;
 }

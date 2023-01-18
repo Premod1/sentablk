@@ -1,13 +1,14 @@
 import { FaWhatsapp } from "react-icons/fa";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./WhatsappContact.css";
+import { light } from "@mui/material/styles/createPalette";
 function WhatsappContact() {
   const handlClick = () => {
     window.open("https://wa.me/94773181567");
   };
   return (
     <div className="whats-app-container">
-      <div className="app">
+      <div id="app">
         <FaWhatsapp size={45} color="#25D366" onClick={handlClick} />
       </div>
     </div>
