@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/about.css";
+import jobimg from "../images/Jobs.jpg";
 // import logo from '../sentablogo.png';
 // import NavBar from './navbar-sentab';
 
@@ -34,6 +35,13 @@ function aboutus() {
         <div class="content-container content-theme-light">
           <div class="content-inner">
             <div class="content-center">
+              <img
+                src={jobimg}
+                class="img-responsive rounded mx-auto d-block"
+                width="100%"
+                alt="SENTAB"
+              />
+              &nbsp;
               <h1>JOBS</h1>
               <h3 class="subtopic">
                 Find your perfect match! - Sentab International – Your Visionary

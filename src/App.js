@@ -1,6 +1,8 @@
 import logo from "./sentablogo.png";
 import home1 from "./images/home_1.jpg";
+import welcomeCover from "./images/Cover.jpg";
 import contactusimg from "./images/contactus2.jpg";
+import contactusimg2 from "./images/Contac.jpg";
 import "./App.css";
 import CollapsibleExample from "./components/navbar-sentab";
 import AboutUs from "./components/about-us-sentab";
@@ -19,7 +21,7 @@ function App() {
       <HotLine />
       <CollapsibleExample />
       <div class="banner">
-        <img src={home1} width="100%" alt="..." />
+        <img src={welcomeCover} width="20%" alt="..." />
         <h2 class="heading">WELCOME TO SENTAB </h2>
       </div>
       &nbsp;
@@ -34,7 +36,7 @@ function App() {
       </body>
       <section id="contact">
         <img
-          src={contactusimg}
+          src={contactusimg2}
           class="img-responsive rounded mx-auto d-block"
           width="100%"
           alt="SENTAB"
