@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/about.css";
 import jobimg from "../images/Jobs.jpg";
+import FbPost from "./FbPost";
 // import logo from '../sentablogo.png';
 // import NavBar from './navbar-sentab';
 
@@ -63,11 +64,15 @@ function aboutus() {
           </div>
         </div>
       </section>
-      <section id="blogs" class="section bottom-section2">
-        <div class="content-container content-theme-dark3">
+
+      {/* class="section bottom-section2" */}
+      <section id="blogs">
+        <FbPost />
+        {/* <div class="content-container content-theme-dark3">
           <div class="content-inner">
             <div class="content-center">
               <h1>News and Blogs</h1>
+              
               <h3 class="subtopic" style={{ color: "white" }}>
                 Find your perfect match! - Sentab International – Your Visionary
                 Consulting Agency
@@ -79,7 +84,7 @@ function aboutus() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );
