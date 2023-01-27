@@ -1,7 +1,7 @@
 import logo from "./sentablogo.png";
-import home1 from "./images/home_1.jpg";
+// import home1 from "./images/home_1.jpg";
 import welcomeCover from "./images/Cover.jpg";
-import contactusimg from "./images/contactus2.jpg";
+// import contactusimg from "./images/contactus2.jpg";
 import contactusimg2 from "./images/Contac.jpg";
 import "./App.css";
 import CollapsibleExample from "./components/navbar-sentab";
@@ -16,7 +16,7 @@ import HotLine from "./components/HotLine";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       &nbsp;
       <HotLine />
       <CollapsibleExample />

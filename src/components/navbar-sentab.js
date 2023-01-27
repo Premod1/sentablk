@@ -27,17 +27,20 @@ function CollapsibleExample() {
           </Nav>
 
           <Nav>
+            <Nav.Link href="#home">
+              <b>HOME</b>
+            </Nav.Link>
             <Nav.Link href="#about">
-              <b>About Us</b>
+              <b>ABOUT US</b>
             </Nav.Link>
             <Nav.Link href="#jobs">
-              <b>Jobs</b>
+              <b>JOBS</b>
             </Nav.Link>
             <Nav.Link href="#blogs">
-              <b>Blogs & News</b>
+              <b>BLOGS & NEWS</b>
             </Nav.Link>
             <Nav.Link href="#contact">
-              <b>Contact Us</b>
+              <b>CONTACT US</b>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -4,27 +4,36 @@ function FbPost() {
     <div className="post-container">
       <div className="postWrapper">
         <div>
-          <h1 style={{ color: "white", fontWeight: "bold", fontSize: "50px" }}>
+          <h1
+            style={{
+              color: "white",
+              fontWeight: "bold",
+              fontSize: "50px",
+              margin: "10px",
+            }}
+          >
             News and Blogs
           </h1>
         </div>
-
-        <iframe
-          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSentabInternational%2Fposts%2Fpfbid02d8iecTwEehu97PQnuSQWUgR6ap8vV48Bja52EtB58NQUaDa7mgzXYakeb97Rwkdcl&show_text=true&width=500"
-          title="news"
-          width="200"
-          height="200"
-          allowFullScreen
-          style={{
-            position: "absolute",
-            top: "12%",
-            left: "3%",
-            right: "0",
-            bottom: "0",
-            width: "25%",
-            height: "120%",
-          }}
-        ></iframe>
+        <div className="post-one">
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSentabInternational%2Fposts%2Fpfbid02d8iecTwEehu97PQnuSQWUgR6ap8vV48Bja52EtB58NQUaDa7mgzXYakeb97Rwkdcl&show_text=true&width=500"
+            title="news"
+            width="200"
+            height="200"
+            allowFullScreen
+            style={{
+              position: "absolute",
+              top: "16%",
+              left: "3%",
+              right: "0",
+              bottom: "0",
+              width: "25%",
+              height: "120%",
+              backgroundColor: "white",
+            }}
+          ></iframe>
+        </div>
 
         <iframe
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSentabInternational%2Fposts%2Fpfbid02xQvMiM2YPWsyajMKPjQeNWE3fLZj3nvHLvfxnWeaVy56DvtyKRTRK2dxpnDxCiE1l&show_text=true&width=500"
@@ -34,12 +43,13 @@ function FbPost() {
           allowFullScreen
           style={{
             position: "absolute",
-            top: "12%",
+            top: "16%",
             left: "35%",
             right: "0",
             bottom: "10%",
             width: "25%",
             height: "120%",
+            backgroundColor: "white",
           }}
         ></iframe>
 
@@ -51,12 +61,13 @@ function FbPost() {
           allowFullScreen
           style={{
             position: "absolute",
-            top: "12%",
+            top: "16%",
             left: "70%",
             right: "0",
             bottom: "50%",
             width: "25%",
             height: "130%",
+            backgroundColor: "white",
           }}
         ></iframe>
 
@@ -74,6 +85,7 @@ function FbPost() {
             bottom: "0",
             width: "25%",
             height: "120%",
+            backgroundColor: "white",
           }}
         ></iframe>
 
@@ -91,6 +103,7 @@ function FbPost() {
             bottom: "0",
             width: "25%",
             height: "120%",
+            backgroundColor: "white",
           }}
         ></iframe>
 
@@ -108,6 +121,7 @@ function FbPost() {
             bottom: "0",
             width: "25%",
             height: "130%",
+            backgroundColor: "white",
           }}
         ></iframe>
 
@@ -125,6 +139,7 @@ function FbPost() {
             bottom: "0",
             width: "25%",
             height: "130%",
+            backgroundColor: "white",
           }}
         ></iframe>
 
@@ -142,6 +157,7 @@ function FbPost() {
             bottom: "0",
             width: "25%",
             height: "130%",
+            backgroundColor: "white",
           }}
         ></iframe>
 

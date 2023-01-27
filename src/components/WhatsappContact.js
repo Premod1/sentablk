@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./WhatsappContact.css";
-import { light } from "@mui/material/styles/createPalette";
+
 function WhatsappContact() {
   const handlClick = () => {
     window.open("https://wa.me/94773181567");

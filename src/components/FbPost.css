@@ -1,4 +1,11 @@
 
+.post-container {
+    @media screen and (min-width: 768px) {
+        display: inline;
+        color: red;
+        
+    }
+}
 .postWrapper {
     position: relative;
     padding-bottom: 26.25%;
@@ -6,12 +13,7 @@
     
 }
 .postWrapper iframe {
-    /* overflow: auto;
-    border: 0;
-    align-self: center;
-    position: absolute;
-    top: 10;
-    left: 0; */
+    
     width: 80%;
     height: 500px;
     border: none;
@@ -19,3 +21,13 @@
     
     
 }
+.post-one iframe {
+   @media screen and (min-width:860){
+     padding: 500px; 
+    
+   }
+   
+   
+   
+}
+ 

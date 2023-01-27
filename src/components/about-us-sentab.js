@@ -64,7 +64,7 @@ function aboutus() {
           </div>
         </div>
       </section>
-
+      &nbsp;
       {/* class="section bottom-section2" */}
       <section id="blogs">
         <FbPost />
